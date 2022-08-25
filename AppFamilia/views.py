@@ -16,7 +16,7 @@ def familia(request):
         dni = 27319224,
         fecha_nacimiento = date(year=1979, month=05, day=01))
     context = {'integrante': integrante}
-    return render(request, 'familia.html', context) #for template
+    return render(request, 'familia.html', context)
         """
 
 def mostrar_familia(request):
