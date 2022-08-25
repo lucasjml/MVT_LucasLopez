@@ -11,10 +11,10 @@ def familia(request):
 
 """def crear_familia(request):
     integrante = Familia.objects.create(
-        nombre = "carlos",
-        apellido = "peralta",
-        dni = 550000222,
-        fecha_nacimiento = date(year=2000, month=12, day=30))
+        nombre = "Lucas",
+        apellido = "Lopez",
+        dni = 27319224,
+        fecha_nacimiento = date(year=1979, month=05, day=01))
     context = {'integrante': integrante}
     return render(request, 'familia.html', context)
         """
